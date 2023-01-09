@@ -1,4 +1,4 @@
-# open-src in C
+# open-src in C(huffman code)
 
 This is assignment 3
 
