@@ -1,3 +1,7 @@
+# open-src in C(arithmetic code)
+
+This is assignment 3
+
 ## Compile & Run
 
 * sh is for ubuntu command line (Bash)
