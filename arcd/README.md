@@ -1,3 +1,14 @@
+## Compile & Run
+
+* sh is for ubuntu command line (Bash)
+```sh
+# Compile
+gcc -o build/main.o src/main.c src/arcd.c src/adaptive_model.c
+# Run
+./build/main.o -e <text | tee encode
+./build/main.o -d <encode | tee decode
+```
+
 # arcd
 
 Arithmetic coding is a form of entropy encoding used in lossless data
