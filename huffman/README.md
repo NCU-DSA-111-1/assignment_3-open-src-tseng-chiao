@@ -7,10 +7,10 @@ This is assignment 3
 * sh is for ubuntu command line (Bash)
 ```sh
 # Compile
-gcc -o build/main.o src/main.c src/arcd.c src/adaptive_model.c
+gcc -o bin/main_huffcode src/main_huffcode.c src/huffman.c inc/huffman.h
 # Run
-./build/main.o -e <text | tee encode
-./build/main.o -d <encode | tee decode
+./bin/main_huffcode -i text -o encode -c
+./bin/main_huffcode -i encode -o decode -d
 ```
 
 # huffman
