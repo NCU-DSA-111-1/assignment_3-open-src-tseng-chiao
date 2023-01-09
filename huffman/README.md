@@ -1,3 +1,18 @@
+# open-src in C
+
+This is assignment 3
+
+## Compile & Run
+
+* sh is for ubuntu command line (Bash)
+```sh
+# Compile
+gcc -o build/main.o src/main.c src/arcd.c src/adaptive_model.c
+# Run
+./build/main.o -e <text | tee encode
+./build/main.o -d <encode | tee decode
+```
+
 # huffman
 
 [![Build](https://github.com/drichardson/huffman/actions/workflows/build.yml/badge.svg)](https://github.com/drichardson/huffman/actions/workflows/build.yml)
